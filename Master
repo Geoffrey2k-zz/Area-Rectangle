@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+float l, b, a;
+
+printf("We are going to find the Area of the rectangle.\n Enter the length and breadth of the rectangle.\n");
+scanf("%f%f", &l, &b);
+
+a = l * b ;
+
+printf("Area of the rectangle = %f\n", a);
+ 
+return 0;
+
+}
+
